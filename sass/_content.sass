@@ -1,0 +1,593 @@
+.content
+  width: 739px
+  @include box-sizing(border-box)
+  border-top: 3px solid #e87463
+  @include clearfix()
+  padding: 0 20px
+  padding-bottom: 60px
+  min-height: 100%
+  background: #fff
+  display: table-cell
+
+.content-title
+  border-bottom: 1px solid #ebebeb
+  margin-left: -20px
+  margin-right: -20px
+  margin-bottom: 20px
+  padding-top: 20px
+  padding-left: 30px
+  padding-bottom: 15px
+  font-family: 'intro_light'
+  font-size: 18px
+  color: #2d3235
+
+
+.content-header-fix.affix
+  top: 0
+  background: #fff
+  width: 740px
+  z-index: 1000
+  height: 131px
+  margin-left: -20px
+  padding-left: 20px
+  padding-right: 20px
+  border-top: 3px solid #e87463
+
+.content-header-fix.affix-bottom
+  background: #fff
+  z-index: 1000
+
+.content-header-fix.affix + .content-body
+  padding-top: 140px
+
+.list-tops.affix
+  top: 128px
+  padding-top: 10px
+  margin-left: -20px
+  padding-left: 30px
+  background: #fff
+  width: 740px
+  z-index: 1000
+
+.thead.affix + .table-data
+  margin-top: 115px
+
+.thead
+  background: #b1dddb
+
+.thead-table
+  width: 100%
+  height: 40px
+  font-size: 12px
+  text-align: left
+  font-family: "Open Sans"
+  table-layout: fixed
+  th
+    vertical-align: middle
+    font-weight: bold
+
+
+.thead.affix
+  top: 173px
+  width: 700px
+  z-index: 1000
+
+///////////////////////////////////manager-profile
+.manager-profile,
+.manager-task-top,
+.manager-task-bottom
+  @include box-sizing(border-box)
+  width: 340px
+
+.manager-profile
+  height: 200px
+  margin-right: 19px
+  float: left
+  table-layout: fixed
+
+.profile-photo
+  background: #ebebeb
+  width: 50%
+  text-align: center
+  vertical-align: middle
+  font-family: 'Open Sans', sans-serif
+  font-weight: bold
+  padding: 20px
+  padding-top: 30px
+
+.profile-img
+  margin-bottom: 15px
+
+.profile-name
+  font-size: 18px
+  margin-top: 15px
+
+
+.profile-contacts
+  font-size: 11px
+  font-family: 'Open Sans', sans-serif
+  font-weight: bold
+  position: relative
+  bottom: -15px
+  color: #999c9f
+
+.link-phone:before,
+.link-email:before,
+.link-skype:before
+  content: ""
+  display: inline-block
+  width: 13px
+  height: 12px
+  margin-right: 7px
+  margin-top: 5px
+
+.link-phone:before
+  background: url("../i/icon-phone.png") no-repeat
+  height: 11px
+
+.link-email:before
+  background: url("../i/icon-email.png") no-repeat
+  height: 10px
+
+.link-skype:before
+  background: url("../i/icon-skype.png") no-repeat
+
+
+.profile-info
+  background: #f5f5f5  
+  width: 50%
+  padding: 20px
+  padding-top: 10px
+  word-wrap: break-word
+
+.info-title
+  color: #878b8f // text color
+  font-family: "Open Sans", sans-serif
+  font-size: 12px
+
+
+.manager-extra-info
+  display: inline-block
+  font-size: 12px
+  clear: both
+
+.manager-task-top,
+.manager-task-bottom
+  padding: 18px
+  min-height: 90px
+
+.manager-task-top
+  background: #f8d6d2
+  margin-bottom: 20px
+
+.domen-name
+  margin-bottom: 4px
+
+.top-number
+  font-size: 22px
+  color: #5f6163
+  line-height: 11px
+  @include clearfix()
+
+.manager-task-bottom
+  background: #cce8e7
+
+
+////////////////////////////////////////end manager-profile
+
+///////////////////////////////////////content-projects manager
+
+.content-projects
+  margin-top: 40px  
+  margin-right: -20px
+
+.projects-title
+  margin-bottom: 20px
+  padding-left: 10px
+  font-size: 16px
+
+.projects-list li
+  @include box-sizing(border-box)
+  width: 340px
+  background: #f5f5f5
+  display: inline-block
+  margin-right: 15px
+  margin-bottom: 20px
+
+.projects-list-link
+  display: block
+  padding: 20px
+  position: relative
+
+.projects-list-link:after
+  position: absolute
+  content: ""
+  display: inline-block
+  width: 5px
+  height: 5px
+  border-top: 2px solid #5f6264  
+  border-right: 2px solid #5f6264
+  top: 20px
+  right: 20px
+
+.projects-img
+  display: inline-block
+  max-width: 62px
+  height: auto
+  float: left  
+  margin-right: 30px
+/////////////////////////////////////end content-projects manager
+
+///////////////////////////content--body--table-data
+.table-wrap
+  background: #cce8e7
+
+.table-title
+  padding: 20px
+
+.table-data,
+.table-data-city
+  width: 100%
+  font-size: 12px
+  text-align: left
+  font-family: "Open Sans"
+  table-layout: fixed
+
+
+.table-data-link
+  overflow: hidden
+  white-space: nowrap
+
+.table-data thead,
+.table-data tfoot,
+.table-data-city thead,
+.table-data-city tfoot
+  background: #b1dddb
+
+.table-data tbody
+  background: #cce8e7
+
+.table-data thead tr th,
+.table-data tfoot tr td,
+.table-data-city thead tr th,
+.table-data-city tfoot tr td
+  height: 40px
+  vertical-align: middle
+
+.table-data tfoot tr td,
+.table-data-city tfoot tr td
+  text-transform: uppercase
+  font-weight: bold
+
+.table-data tbody tr td,
+.table-data-city tbody tr td
+  height: 30px
+  vertical-align: middle
+
+
+.table-data tbody tr td:nth-child(6),
+.thead-table tr th:nth-child(6),
+.table-data tfoot tr td:nth-child(6)
+  position: relative
+  overflow: hidden
+  width: 190px
+
+
+.table-data tbody tr td:nth-child(4),
+.thead-table tr th:nth-child(4),
+.table-data tfoot tr td:nth-child(4),
+.table-data tbody tr td:nth-child(5),
+.thead-table tr th:nth-child(5),
+.table-data tfoot tr td:nth-child(5)
+  width: 70px
+
+.table-data tbody tr td:nth-child(3),
+.thead-table tr th:nth-child(3),
+.table-data tfoot tr td:nth-child(3)
+  width: 255px  
+
+.table-data tbody tr td:nth-child(2),
+.thead-table tr th:nth-child(2),
+.table-data tfoot tr td:nth-child(2)
+  width: 30px  
+
+
+
+.table-data tbody tr td,
+.table-data tfoot tr td,
+.table-data-city tbody tr td,
+.table-data-city tfoot tr td
+  border-bottom: 1px solid #97d1ce
+
+.table-data tfoot tr:last-child td,
+.table-data tbody tr:last-child td,
+.table-data-city tfoot tr:last-child td,
+.table-data-city tbody tr:last-child td
+  border-bottom: 0
+
+.table-data tbody tr td:nth-child(1),
+.thead-table tr th:nth-child(1),
+.table-data tfoot tr td:nth-child(1),
+.table-data tbody tr td:nth-child(7),
+.thead-table tr th:nth-child(7),
+.table-data tfoot tr td:nth-child(7)
+  width: 20px  
+  border-bottom: 0
+
+.table-data tbody tr td:nth-child(6):after
+  content: url('../i/table-bg.png')
+  display: inline-block
+  width: 29px
+  height: 29px
+  position: absolute
+  z-index: 100
+  right: -10px
+  top: 0
+
+
+.table-data-city tbody tr td:nth-child(6),
+.table-data-city tfoot tr td:nth-child(7),
+.table-data-city tbody tr td:nth-child(7),
+.table-data-city tfoot tr td:nth-child(7)
+  width: 80px
+
+.table-data-city tbody tr td:nth-child(8),
+.table-data-city thead tr th:nth-child(8),
+.table-data-city tfoot tr td:nth-child(8),
+.table-data-city tbody tr td:nth-child(1),
+.table-data-city thead tr th:nth-child(1),
+.table-data-city tfoot tr td:nth-child(1)
+  width: 20px
+  border-bottom: 0
+
+.table-data-city thead tr th:nth-child(7)
+  width: 20px
+
+.table-data-city thead tr:nth-child(1) th:nth-child(6)
+  width: 20px
+
+.table-data-city thead tr:nth-child(1) th
+  height: 30px
+  vertical-align: bottom
+
+.table-data-city thead tr:nth-child(2) th
+  height: 50px
+
+.table-data-city thead tr:nth-child(1) th:nth-child(4),
+.table-data-city thead tr:nth-child(1) th:nth-child(5)
+  padding-left: 30px
+
+.table-data-city tbody tr td:nth-child(2),
+.table-data-city thead tr th:nth-child(2),
+.table-data-city tfoot tr td:nth-child(2)
+  width: 30px
+
+.table-data-city tbody tr td:nth-child(3),
+.table-data-city thead tr th:nth-child(3),
+.table-data-city tfoot tr td:nth-child(3)
+  width: 285px
+
+.table-data-city tbody tr td:nth-child(4),
+.table-data-city thead tr th:nth-child(4),
+.table-data-city tfoot tr td:nth-child(4),
+.table-data-city tbody tr td:nth-child(5),
+.table-data-city thead tr th:nth-child(5),
+.table-data-city tfoot tr td:nth-child(5)
+.table-data-city tbody tr td:nth-child(6),
+.table-data-city tfoot tr td:nth-child(6)
+.table-data-city tbody tr td:nth-child(7),
+.table-data-city tfoot tr td:nth-child(7)
+  width: 80px
+
+
+.list-tops
+  padding-left: 10px
+  padding-bottom: 20px
+  background: #fff
+
+.list-tops li
+  display: inline-block  
+  margin-right: 40px
+  font-family: 'Open Sans'
+
+.list-tops li .link
+  border-bottom: 1px dotted #333
+
+.list-tops li .link:hover
+  border-bottom: 0
+
+.list-tops li:last-child
+  margin-right: 0
+
+.list-tops li.active .link
+  font-weight: bold
+  border-bottom: 0
+
+
+
+
+//////////////////////////////end
+
+//////////////content--body--reqeust
+.content-reqeust
+  border: 1px solid #ebebeb
+  margin-bottom: 20px
+  height: 40px
+
+
+.reqeust-text
+  display: inline-block
+  position: relative
+  top: -15px
+
+.reqeust-link
+  display: inline-block
+  width: 40px
+  height: 39px
+  background: #ebebeb url("../i/arrow-left.png") no-repeat 
+  background-position: 49% 50%
+  margin-right: 20px   
+
+.plus-number
+  color: #4aaeaa
+  font-size: 11px
+
+.minus-number
+  color: #e87463 
+  font-size: 11px
+
+//////////////end content--body--reqeust
+
+///////////content--body--date-picker
+
+
+.date-picker
+  width: 460px
+  background: #f5f5f5
+  padding: 20px
+  display: inline-block
+  float: left
+  font-family: "Open Sans"
+  margin-bottom: 20px
+  margin-right: 15px
+  min-height: 200px
+
+.picker-title
+  font-weight: bold
+
+.form-group
+  width: 140px
+  display: inline-block
+  margin-right: 5px
+  margin-top: 5px
+
+.form-control
+  width: 100%
+  padding: 0 15px
+  height: 40px
+  margin-top: 5px
+  color: #5f6163
+  border: 1px solid #ebebeb
+
+.checkbox
+  display: inline-block
+
+.label-text
+  color: #888c8f // text color
+  font-size: 12px
+
+.content-btn
+  position: relative
+  top: 34px
+  width: 120px
+  color: #fff
+  background: #ee9c90
+  border: 0
+  padding: 0
+  height: 38px
+  transition: all linear .3s
+  &:hover
+    background: #e87463
+
+
+////////////end content--body--date-picker
+
+//////////////////content--body--load
+.content-load
+  background: #f5f5f5
+  width: 220px
+  display: inline-block
+  padding: 20px
+  min-height: 200px
+  margin-bottom: 20px
+
+.load-title
+  margin-bottom: 10px
+
+.load-btn
+  position: relative
+  width: 100%  
+  display: inline-block
+  font-size: 12px
+  padding-top: 10px
+  margin-top: 10px
+  height: 38px
+  background: #ee9c90
+  text-align: center
+  color: #fff !important
+  transition: all linear .3s
+  &:hover
+    background: #e87463
+
+.load-btn:before,
+.load-btn-xlsx:before
+  content: ""
+  display: inline-block
+  width: 18px
+  height: 17px
+  position: absolute
+  left: 15px
+  top: 12px
+
+.load-btn:before
+  background: url('../i/btn-icon.png') no-repeat
+
+.load-btn-xlsx:before
+  background: url('../i/btn-icon-2.png') no-repeat
+
+.load-btn-xlsx
+  position: relative
+  background: #7dc5c2
+  padding-top: 10px
+  font-size: 12px
+  text-align: center
+  transition: all linear .3s
+  &:hover
+    background: #4aaeaa  
+////////////////end content--body--load
+
+/////////////////////content--body--tabs
+.content-tabs
+  margin-bottom: 20px
+
+.tab-link
+  display: inline-block
+  background: #f5f5f5
+  width: 160px
+  border: 1px solid #ebebeb
+  height: 40px
+  margin-right: 20px
+  font-family: 'intro_light'
+
+.tab-link.active
+  background: #ebebeb
+  font-family: 'intro_regular'
+
+.tab-link:last-child
+  margin-right: 0
+
+.tab-text
+  display: table-cell
+  vertical-align: middle
+  height: 40px
+  width: 160px
+  text-align: center
+
+//////////////end  content--body--tabs
+
+.task-board-title .link,
+.table-title .link
+  display: inline-block
+  width: 8px
+  height: 8px
+  float: right
+  border-top: 2px solid #4aaedc
+  border-right: 2px solid #4aaedc
+
+.table-title .link
+  border-top: 2px solid #4aaeaa
+  border-right: 2px solid #4aaeaa
+
+/////////////////////////select
+
+/////////////////////end

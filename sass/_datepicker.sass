@@ -1,0 +1,91 @@
+.ui-datepicker
+  background: #e0877a
+  color: rgba(255,255,255, 1)
+  z-index: 101 !important
+  font-family: "Open Sans"
+  margin-top: -40px
+
+.ui-datepicker-header
+  background: #000 
+
+.ui-datepicker-calendar thead
+  background: #000 
+  color: rgba(255,255,255, 0.8)
+  font-size: 12px
+
+.ui-datepicker-calendar td,
+.ui-datepicker-calendar th
+  padding: 5px
+  text-align: center
+
+.ui-datepicker-other-month 
+  color: rgba(255,255,255, 0.6)
+
+.ui-datepicker-year
+  display: none
+
+.ui-datepicker-title
+  text-align: center
+  border-bottom: 1px solid rgba(255,255,255, 0.3)
+  height: 30px
+  padding-top: 5px
+
+.ui-datepicker-prev,
+.ui-datepicker-next   
+  cursor: pointer
+  display: inline-block
+  width: 28px
+  height: 28px 
+  position: absolute
+  display: table
+  text-align: center
+
+.ui-datepicker-next
+  background: url('../i/icon-right-bg.png') no-repeat
+  background-position: 50%
+
+.ui-datepicker-prev
+  background: url('../i/icon-left-bg.png') no-repeat
+  background-position: 50%
+
+
+.ui-icon
+  display: table-cell
+  vertical-align: middle
+
+.ui-datepicker-prev
+  border-right: 1px solid rgba(255,255,255, 0.3)
+
+
+.ui-datepicker-next
+  border-left: 1px solid rgba(255,255,255, 0.3)
+  right: 0
+
+
+
+.ui-datepicker-calendar td:hover
+  background: darken(#e0877a, 15%)
+
+.ui-datepicker-current-day,
+.ui-datepicker-current-day:hover
+  background: #000 !important
+
+.form-group
+  position: relative
+  font-size: 12px
+
+.icon-calendar
+  position: absolute
+  cursor: pointer
+  right: 10px
+  bottom: 12px
+  display: inline-block
+  width: 14px
+  height: 14px
+  background: url('../i/icon-calendar.png') no-repeat
+
+.inactive
+  .icon-calendar
+    background: url('../i/icon-calendar-inactive.png') no-repeat
+  .form-control
+    background: #fcfcfc  

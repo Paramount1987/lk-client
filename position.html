@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>lk_client</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+    <link href="style/screen.css" rel="stylesheet" media="all">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+  
+      <header>
+        <div class="container-header">
+
+          <div class="logo">
+           
+              <a href="#" class="logo-link"><img src="i\logo.png"></a>
+
+          </div><!-- end row -->
+
+          <div class="user">
+          
+              <span class="user-photo"> <img src="i\user-photo.png" class="photo-img"></span>
+              <span class="user-name">Василий Петрович</span>
+              <a href="#" class="user-quit"></a>
+            
+          </div>
+        </div><!-- end container -->
+      </header>
+
+      
+
+        <div class="middle">
+          <div class="row">
+              <div class="sidebar">
+                    <ul data-spy="affix" data-offset-top="80" data-offset-bottom="80" class="sidebar-list">
+                      <li class="item-seo ">
+                        <span class="list-item-text  icon-seo active"><span class="seo-bg bg"></span>seo</span>
+                        <ul class="list-item-ul  showed">
+                          <li><a href="#" class="link icon-home active">главная</a></li>
+                          <li><a href="#" class="link icon-results">результаты</a></li>
+                          <li><a href="#" class="link icon-notes">отчет</a></li>
+                          <li><a href="#" class="link icon-idea">идея</a></li>
+                          <li><a href="#" class="link icon-star">оценка</a></li>
+                        </ul>
+                      </li>
+                      <li class="item-smm">
+                        <span class="list-item-text  icon-smm"><span class="smm-bg bg"></span>smm</span>
+                        <ul class="list-item-ul ">
+                          <li><a href="#" class="link icon-home">главная</a></li>
+                          <li><a href="#" class="link icon-results">результаты</a></li>
+                          <li><a href="#" class="link icon-notes">отчет</a></li>
+                          <li><a href="#" class="link icon-idea">идея</a></li>
+                          <li><a href="#" class="link icon-star">оценка</a></li>
+                        </ul>
+                      </li>
+                      <li class="item-context">
+                        <span class="list-item-text  icon-context "><span class="context-bg bg"></span>context</span>
+                        <ul class="list-item-ul ">
+                          <li><a href="#" class="link icon-home">главная</a></li>
+                          <li><a href="#" class="link icon-results">результаты</a></li>
+                          <li><a href="#" class="link icon-notes">отчет</a></li>
+                          <li><a href="#" class="link icon-idea">идея</a></li>
+                          <li><a href="#" class="link icon-star">оценка</a></li>
+                        </ul>
+                      </li>
+                      <li class="item-analytics">
+                        <span class="list-item-text  icon-analytics "><span class="analytics-bg bg"></span>analytics</span>
+                        <ul class="list-item-ul">
+                          <li><a href="#" class="link icon-home">главная</a></li>
+                          <li><a href="#" class="link icon-results">результаты</a></li>
+                          <li><a href="#" class="link icon-notes">отчет</a></li>
+                          <li><a href="#" class="link icon-idea">идея</a></li>
+                          <li><a href="#" class="link icon-star">оценка</a></li>
+                        </ul>
+                      </li>
+                        <li class="item-support">
+                        <a href="#" class="list-item-text  icon-support "><span class="support-bg bg"></span>support</a>
+
+                      </li>
+                    </ul>
+
+                    <div class="contacts-uplab">
+                      <p><b>&copy; 2008-2014 UPLAB</b></p>
+                      <p>+7 8352 55 60 56</p>
+                    </div>
+              </div>
+
+              <div class="content">
+                <div class="content-header content-header-fix">
+                    <div class="content-title">
+                      <p>Yogamango.ru</p>
+                    </div>
+
+                    <div class="content-reqeust">
+                        <a href="#" class="reqeust-link"></a>
+                            <span class="reqeust-text">Позиции сайта по продвигаемым запросам</span>
+                      </div>
+                </div>
+
+
+                <div class="content-body">
+
+
+                   
+                      <div class="date-picker">
+                        <p class="picker-title">Настройка промежутка выдачи</p>
+                        <form class="date-picker--form">
+                          <div class="form-group">
+                            <label class="label-text">позиции за:</label>
+                            <input type="text" class="form-control select-date" placeholder="22.10.2014">
+                            <span class="icon-calendar"></span>
+                          </div>
+                          <div class="form-group inactive">
+                            <label class="label-text">сравнить с:</label>
+                            <input type="text" class="form-control select-date" placeholder="22.11.2014">
+                            <span class="icon-calendar"></span>
+                          </div>
+                         
+                          <div class="checkbox inactive">
+                            
+                                  <input type="checkbox" class="css-checkbox" id="c9" disabled> 
+                                <label class="label-text-compare css-label" for="c9">
+                                сравнить
+                                </label>
+                          </div>
+
+                          <div class="form-group visit">
+                            <label class="label-text">посещяемость:</label>
+                             <select class="custom">
+                                
+                                <option>не показывать</option>
+                                <option>показывать</option>
+                              </select>
+                          </div>  
+
+                           <div class="form-group">
+                            <label class="label-text">регион:</label>
+                             <select class="custom">
+                                
+                                <option>Москва</option>
+                                <option>Чебоксары</option>
+                                <option>Камчатка</option>
+                                <option>Москва</option>
+                                <option>Чебоксары</option>
+                                <option>Камчатка</option>
+                                <option>Москва</option>
+                                <option>Чебоксары</option>
+                                <option>Камчатка</option>
+                                <option>Москва</option>
+                                <option>Чебоксары</option>
+                                <option>КамчаткаКамчаткаКамчатка</option> 
+                              </select>
+                          </div>  
+
+                          <button type="submit" class="content-btn">Показать</button>
+                        </form>
+                      </div>
+
+                      <div class="content-load">
+                        <p class="load-title">Выгрузка позиций за выбранный промежуток в форматах:</p>
+                         <a href="#" class="load-btn">PDF</a>
+                         <a href="#" class="load-btn load-btn-xlsx">XLSX</a>
+                      </div>
+                   
+                     <div class="content-graphs content-graphs-for-affix">
+
+                       <div class="graph-wrapper graph-wrapper-visit">
+                          <p class="graph-title">Посещяемость за январь <span class="btn opened"></span></p>
+                          <div id="graph-visit" class="graph">
+                          
+                        </div>
+                       </div> 
+                    </div>
+
+                    <div class="table-wrap">
+                      <ul class="list-tops">
+                        <li class="active"><a href="#" class="link"> ТОП-5</a></li>
+                        <li><a href="#" class="link">ТОП-10</a></li>
+                        <li><a href="#" class="link">ТОП-20</a></li>
+                        <li><a href="#" class="link">не в ТОП-20</a></li>
+                      </ul>
+
+                      <div class="thead">
+                        <table class="thead-table">
+                            <tr>
+                              <th></th><th>№</th><th>Продвигаемы запросы</th><th>Яндекс</th><th>Google</th><th>Целевая страница</th> <th></th>
+                             </tr>
+                        </table>
+                      </div>
+                      <table class="table-data">
+
+                          <tfoot>
+                            <tr>
+                              <td></td><td></td><td>топ-5</td><td>8</td><td>8 <i class="minus-number">-4</i></td><td></td><td></td>
+                             </tr>
+
+                            <tr>
+                              <td></td><td></td><td>топ-10</td><td>9</td><td>9</td><td></td><td></td>
+                             </tr>
+
+                            <tr>
+                              <td></td><td></td><td>топ-20</td><td>2</td><td>2 <i class="plus-number">+1</i></td><td></td><td></td>
+                             </tr>
+                          </tfoot>
+
+                          <tbody>   
+                            <tr>
+                              <td></td><td>1</td><td>туры в якутию</td><td>32</td><td>2</td>
+                              <td><a href="#" class="table-data-link">http://www.artimage.ru/programmprogrammprogramm</a></td><td></td>
+                             </tr>
+
+                             <tr>
+                              <td></td><td>2</td><td>восождение на эльбрус с севера</td><td>2 <i class="plus-number">+5</i></td><td>2</td>
+                              <td><a href="#" class="table-data-link">http://www.artimage.ru/programmprogrammprogramm</a></td><td></td>
+                             </tr>
+
+                            <tr>
+                             <td></td> <td>3</td><td>туры в якутию</td><td>17 <i class="minus-number">-3</i></td><td>2</td>
+                              <td><a href="#" class="table-data-link">http://www.artimage.ru/programmprogrammprogramm</a></td><td></td>
+                             </tr>
+
+                             <tr>
+                             <td></td> <td>4555</td><td>туры в якутию</td><td>32</td><td>2</td>
+                              <td><a href="#" class="table-data-link">http://www.artimage.ru/programmprogrammprogramm</a></td><td></td>
+                             </tr>
+
+                             <tr>
+                              <td></td><td>5</td><td>восождение на эльбрус с севера</td><td>2 <i class="plus-number">+5</i></td><td>2</td>
+                              <td><a href="#" class="table-data-link">http://www.artimage.ru/programmprogrammprogramm</a></td><td></td>
+                             </tr>
+
+                            <tr>
+                              <td></td><td>6</td><td>туры в якутию</td><td>17 <i class="minus-number">-3</i></td><td>2</td>
+                              <td><a href="#" class="table-data-link">http://www.artimage.ru/programmprogrammprogramm</a></td><td></td>
+                             </tr>
+
+                             <tr>
+                             <td></td> <td>7</td><td>туры в якутию</td><td>32</td><td>2</td>
+                              <td><a href="#" class="table-data-link">http://www.artimage.ru/programmprogrammprogramm</a></td><td></td>
+                             </tr>
+
+                             <tr>
+                              <td></td><td>8</td><td>восождение на эльбрус с севера</td><td>2 <i class="plus-number">+5</i></td><td>2</td>
+                              <td><a href="#" class="table-data-link">http://www.artimage.ru/programmprogrammprogramm</a></td><td></td>
+                             </tr>
+
+                            <tr>
+                              <td></td><td>9</td><td>туры в якутию</td><td>17 <i class="minus-number">-3</i></td><td>2</td>
+                              <td><a href="#" class="table-data-link">http://www.artimage.ru/programmprogrammprogramm</a></td><td></td>
+                             </tr>
+
+                             <tr>
+                              <td></td><td>10</td><td>туры в якутию</td><td>32</td><td>2</td>
+                              <td><a href="#" class="table-data-link">http://www.artimage.ru/programmprogrammprogramm</a></td><td></td>
+                             </tr>
+
+                            <tr>
+                              <td></td><td>11</td><td>туры в якутию</td><td>32</td><td>2</td>
+                              <td><a href="#" class="table-data-link">http://www.artimage.ru/programmprogrammprogramm</a></td><td></td>
+                             </tr>
+
+                             <tr>
+                              <td></td><td>12</td><td>восождение на эльбрус с севера</td><td>2 <i class="plus-number">+5</i></td><td>2</td>
+                              <td><a href="#" class="table-data-link">http://www.artimage.ru/programmprogrammprogramm</a></td><td></td>
+                             </tr>
+
+                            <tr>
+                              <td></td><td>13</td><td>туры в якутию</td><td>17 <i class="minus-number">-3</i></td><td>17 <i class="minus-number">-3</i></td>
+                              <td><a href="#" class="table-data-link">http://www.artimage.ru/programmprogrammprogramm</a></td><td></td>
+                             </tr>
+
+                             <tr>
+                              <td></td><td>14</td><td>туры в якутию</td><td>32</td><td>2</td>
+                              <td><a href="#" class="table-data-link">http://www.artimage.ru/programmprogrammprogramm</a></td><td></td>
+                             </tr>
+
+                             <tr>
+                              <td></td><td>15</td><td>восождение на эльбрус с севера</td><td>2 <i class="plus-number">+5</i></td><td>2</td>
+                              <td><a href="#" class="table-data-link">http://www.artimage.ru/programmprogrammprogramm</a></td><td></td>
+                             </tr>
+
+                            <tr>
+                             <td></td> <td>16</td><td>туры в якутию</td><td>17 <i class="minus-number">-3</i></td><td>2</td>
+                              <td><a href="#" class="table-data-link">http://www.artimage.ru/programmprogrammprogramm</a></td><td></td>
+                             </tr>
+
+                             <tr>
+                              <td></td><td>17</td><td>туры в якутию</td><td>32</td><td>2</td>
+                              <td><a href="#" class="table-data-link">http://www.artimage.ru/programmprogrammprogramm</a></td><td></td>
+                             </tr>
+
+                             <tr>
+                              <td></td><td>18</td><td>восождение на эльбрус с севера</td><td>2 <i class="plus-number">+5</i></td><td>2</td>
+                              <td><a href="#" class="table-data-link">http://www.artimage.ru/programmprogrammprogramm</a></td><td></td>
+                             </tr>
+
+                            <tr>
+                             <td></td> <td>19</td><td>туры в якутию</td><td>17 <i class="minus-number">-3</i></td><td>2</td>
+                              <td><a href="#" class="table-data-link">http://www.artimage.ru/programmprogrammprogramm</a></td><td></td>
+                             </tr>
+
+                              <tr>
+                              <td></td><td>20</td><td>туры в якутию</td><td>32</td><td>2</td>
+                              <td><a href="#" class="table-data-link">http://www.artimage.ru/programmprogrammprogramm</a></td><td></td>
+                             </tr>
+
+
+
+                          </tbody>
+
+                      </table>
+                    </div>
+
+                   
+                </div><!-- end content-body -->
+                
+
+                
+              </div><!-- end content -->
+ 
+          </div><!-- end row-->
+        </div> <!-- end middle -->
+  
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	  <script src="js/highcharts.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/affix.js"></script>
+    <script src="js/_lk-client.js"></script>
+    <script src="js/jquery.floatThead.js"></script>
+    <script src="js/jScrollPane.js"></script>
+    <script src="js/SelectBox.js"></script>
+    <script src="js/jquery.mousewheel.js"></script>
+  </body>
+</html>

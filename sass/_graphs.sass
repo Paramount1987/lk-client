@@ -1,0 +1,92 @@
+#graph-visit,
+#graph-visit-column
+  height: 150px
+  margin-bottom: 40px
+  background: #eae3b7
+
+#graph-visit-column
+  height: 200px
+
+.graph-wrapper
+  padding: 0 20px
+
+.graph-title
+  position: relative
+  padding: 20px 0
+
+.graph-title .btn
+  position: absolute
+  right: 0
+  top: 28px
+  content: ""
+  display: inline-block
+  width: 8px
+  height: 8px
+  cursor: pointer
+
+
+.graph-title .btn.opened
+  background: url("../i/arrow-up.png") no-repeat
+
+.graph-title .btn.closed
+  background: url("../i/arrow-down.png") no-repeat
+
+.graph-wrapper-visit
+  background: #eae3b7
+
+
+#graph-tic,
+#graph-reject
+  background: #cce8e7
+  float: left
+  margin-right: 20px
+
+#graph-pr,
+#graph-reject
+  background: #f8d6d2
+
+#graph-tic,
+#graph-pr,
+#graph-reject
+  display: inline-block
+  height: 200px
+  width: 340px
+  margin-bottom: 20px
+
+
+.highcharts-tooltip b
+  font-weight: normal
+
+.highcharts-tooltip>span 
+  font-weight: normal
+  padding: 5px
+  font-size: 12px
+  min-width: 40px
+  text-align: center
+  display: inline-block
+  background: #6a6b6f
+  color: #fff !important
+
+.highcharts-data-labels .null span
+  background: #696c6e
+  color: #fff !important
+  display: inline-block
+  min-width: 40px
+  padding: 5px
+  text-align: center
+  margin-top: -12px !important
+
+.highcharts-data-labels .null span:after,
+.highcharts-tooltip>span:after
+  top: 100%
+  left: 50%
+  border: solid transparent
+  content: " "
+  height: 0
+  width: 0
+  position: absolute
+  pointer-events: none
+  border-color: rgba(105, 108, 110, 0)
+  border-top-color: #696c6e
+  border-width: 5px
+  margin-left: -5px

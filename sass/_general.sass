@@ -1,0 +1,77 @@
+//.wrapper
+//  @include box-sizing(border-box)
+//  min-height: 100%
+
+//.middle
+//  @include box-sizing(border-box)
+//  min-height: calc(100% - 60px)
+*
+  @include box-sizing(border-box)
+
+.pull-right
+  float: right
+  @include clearfix()
+
+.middle
+  @include box-sizing(border-box)
+  width: 980px
+  height: calc(100% - 40px) !important
+  margin: 0 auto
+  margin-bottom: 40px
+  display: table
+
+.row
+  display: table-row
+  height: 100%  
+
+.container-header
+  @include box-sizing(border-box)
+  width: 980px
+  background-color: #2e3235
+  padding: 0 30px  
+  height: 60px
+  display: table
+  margin: 0 auto
+  margin-top: 20px
+
+.content
+  background: #fff
+
+.clear
+  @include clearfix()
+
+.affix
+  position: fixed !important
+
+.small-gray-text
+  font-size: 11px
+  color: #999c9f
+
+.status-online
+  color: #4aaeaa
+  font-size: 11px
+  margin-bottom: 5px
+
+.status-online:before
+  content: ""
+  width: 6px
+  height: 6px
+  border-radius: 100%
+  display: inline-block
+  background: #4aaeaa
+  margin-right: 7px
+  position: relative
+  top: -1px
+
+a,
+a:hover,
+a:visited,
+a:active
+  text-decoration: none 
+  color: inherit
+
+p
+  margin: 0px
+
+i
+  font-style: normal

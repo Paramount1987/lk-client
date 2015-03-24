@@ -1,0 +1,47 @@
+
+
+.logo
+  width: 60px
+  display: table-cell
+  vertical-align: middle
+
+.logo-link
+  display: inline-block
+  margin-top: 5px
+
+.user
+  float: right
+  height: 100%
+  display: table
+  @include clearfix()
+
+
+
+.user-name
+  color: #fff   
+  display: table-cell
+  vertical-align: middle
+  padding-right: 10px
+  font-family: 'intro_light'
+
+.user-photo
+  display: table-cell
+  vertical-align: middle
+  height: 60px
+  padding-right: 10px
+  .photo-img
+    width: 30px
+    height: 30px
+
+
+.user-quit
+  width: 10px
+  height: 10px
+  display: inline-block
+  margin-right: 5px
+  margin-top: 25px
+  padding: 0
+  border: 0
+  background: url("../i/quit.png") no-repeat    
+  &:focus
+    outline: 0
